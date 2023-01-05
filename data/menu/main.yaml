@@ -1,57 +1,31 @@
 ---
 main:
   - name: About
-    ref: ""
+    ref: 
     sub:
       - name: Introduction
         ref: "/"
       - name: Challenges
-        ref: "challenges"
+        ref: "/Challenges"
       - name: FAQs
-        ref: "faq"
+        ref: "faqs"
+
   - name: Contributing
-    ref: ""
+    ref:
     sub:
-      - name: Getting started
-        ref: "getting-started"
-      - name: Signing Up
-        ref: "signing-up"
-      - name: Values
-        ref: "values"
-      - name: Aliases
-        ref: "aliases"
-      - name: Writing notes
-        ref: "writing-notes"
-      - name: Locking and unlocking the ability to write notes
-        ref: "writing-ability"
-      - name: Rating notes
-        ref: "rating-notes"
-      - name: Rating and Writing Impact
-        ref: "writing-and-rating-impact"
+      - name: Getting Started
+        ref: "gettingstarted"
+      - name: Rating Impact
+        ref: "ratingimpact"
       - name: Diversity of perspectives
-        ref: "diversity-of-perspectives"
-      - name: Notes on Twitter
-        ref: "notes-on-twitter"
-      - name: Examples
-        ref: "examples"
-      - name: Additional Review
-        ref: "additional-review"
-      - name: Notifications
-        ref: "notifications"
-      - name: Submit feedback
-        ref: "feedback"
+        ref: "dp"
+
   - name: Under the Hood
-    ref: ""
+    ref:
     sub:
-      - name: Download data
-        ref: "download-data"
-      - name: Note Ranking
-        ref: "ranking-notes"
-      - name: Note Ranking Code
-        ref: "note-ranking-code"
-      - name: Contributor Scores
-        ref: "contributor-scores"
-      - name: "Timeline tabs"
-        ref: "timeline-tabs"
-      - name: "Guardrails and Circuit breakers"
-        ref: "guardrails"
+      - name: Mapping
+        ref: "mapping"
+      - name: Mapping Code
+        ref: "mappingcode"
+      - name: Contribution Score
+        ref: "score"

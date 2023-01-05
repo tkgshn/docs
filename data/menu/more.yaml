@@ -1,14 +1,10 @@
 ---
 more:
-  # - name: "News"
-  #   ref: "/posts"
-  #   external: false
-  #   icon: "notification"
   - name: "View source on GitHub"
-    ref: "https://github.com/twitter/communitynotes"
+    ref: "https://github.com/DeCartography"
     external: true
-    icon: "github"
-  - name: "Follow @CommunityNotes"
-    ref: "https://twitter.com/communitynotes"
+    # icon: "github"
+  - name: "Follow @DeCartography"
+    ref: "https://twitter.com/decartography"
     external: true
-    icon: "twitter"
+    # icon: "twitter"
