@@ -1,296 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Community Notes Guide</title>
+    <title>DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity on Community Notes Guide</title>
     <link>https://tkgshn.github.io/docs/</link>
-    <description>Recent content in Home on Community Notes Guide</description>
+    <description>Recent content in DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity on Community Notes Guide</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tkgshn.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Signing up</title>
-      <link>https://tkgshn.github.io/docs/signing-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/signing-up/</guid>
-      <description>Sign ups are open to everyone. We want anyone to be able to participate and know that having contributors with different points of view is essential to Community Notes helpfully addressing misinformation.
-As there are important nuances in each market, we’ll expand the contributor base country-by-country. We’ll add contributors from a first new country soon.
-Sign up here     Eligibility To become a Community Notes contributor, accounts must have:</description>
-    </item>
-    
-    <item>
-      <title>Additional Community review</title>
-      <link>https://tkgshn.github.io/docs/additional-review/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/additional-review/</guid>
-      <description>What is Community Notes? Community Notes is a program that allows volunteer contributors on Twitter to collaboratively add context (called “notes”) to Tweets they believe could be misleading. The aim is to keep people on Twitter better informed by showing notes that people from different points of view will find helpful.
-Notes only appear on Tweets when they’ve been rated helpful by enough people from different points of view.
-This program is still in development.</description>
-    </item>
-    
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2022 09:03:20 -0800</lastBuildDate><atom:link href="https://tkgshn.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Challenges</title>
-      <link>https://tkgshn.github.io/docs/challenges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://tkgshn.github.io/docs/Challenges/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/challenges/</guid>
-      <description>We know there are many challenges involved in building an open, participatory system like Community Notes — from making it resistant to manipulation attempts, to ensuring it isn’t dominated by a simple majority or biased because of the distribution of contributors.
-We&amp;rsquo;ve been building Community Notes (formerly called Birdwatch) in public since January 2021, and have intentionally designed it to mitigate potential risks. We&amp;rsquo;ve seen encouraging results, but we&amp;rsquo;re constantly designing for challenges that could arise.</description>
+      <guid>https://tkgshn.github.io/docs/Challenges/</guid>
+      <description>We know that building a distributed oracle like DeCartography has many challenges, including withstanding various hacks, not being dominated by a simple majority, and having a skewed community of contributors (crowd workers).
+We have been publicly building DeCartography since Jun 24-26, 2022 and are designing it while seeking input from the broader community.
+Here are a handful of particular challenges we are aware of as well as steps we are taking to address them:</description>
     </item>
     
     <item>
-      <title>Community Notes Aliases</title>
-      <link>https://tkgshn.github.io/docs/aliases/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Contribution Score</title>
+      <link>https://tkgshn.github.io/docs/score/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/aliases/</guid>
-      <description>We want everyone to feel comfortable contributing to Community Notes. Aliases let contributors write and rate notes without sharing their Twitter usernames.
-A Community Notes alias is a new, auto-generated display name that contributors get when they join Community Notes. Aliases are not publicly associated with contributors’ Twitter accounts, so everyone can write and rate notes privately.
-Further, we believe aliases have the potential to:
- Reduce bias. By keeping focus on the content of notes rather than who’s writing them, aliases have the potential to reduce bias that people might have around specific authors.</description>
-    </item>
-    
-    <item>
-      <title>Contributor helpfulness scores</title>
-      <link>https://tkgshn.github.io/docs/contributor-scores/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/contributor-scores/</guid>
-      <description>Helpfulness scores are a way to give more influence to people with a track record of making high-quality contributions to Community Notes. There are currently two types of author helpfulness scores and one rater helpfulness score.
-In order to get enough data from new raters to be able to assess how similarly they rate notes to others, we require a minimum of 10 ratings made before helpfulness scores are computed and ratings may be counted.</description>
+      <guid>https://tkgshn.github.io/docs/score/</guid>
+      <description>write later</description>
     </item>
     
     <item>
       <title>Diversity of perspectives</title>
-      <link>https://tkgshn.github.io/docs/diversity-of-perspectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://tkgshn.github.io/docs/dp/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/diversity-of-perspectives/</guid>
-      <description>Community Notes aims to identify notes that many people on Twitter will find helpful, including people with different points of view.
-To find notes that are helpful to the broadest possible set of people, Community Notes takes into account not only how many contributors rated a note as helpful or unhelpful, but also whether people who rated it seem to come from different perspectives.
-Community Notes assesses &amp;ldquo;different perspectives&amp;rdquo; entirely based on how people have rated notes in the past; Community Notes does not ask about or use any other information to do this (e.</description>
-    </item>
-    
-    <item>
-      <title>Downloading data</title>
-      <link>https://tkgshn.github.io/docs/download-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/download-data/</guid>
-      <description>We can&amp;rsquo;t wait to learn with you!
-All Community Notes contributions are publicly available on the Download Data page of the Community Notes site so that anyone has free access to analyze the data, identify problems, and spot opportunities to make Community Notes better.
-If you have questions or feedback about the Community Notes public data or would like to share your analyses of this data with us, please DM us at @CommunityNotes.</description>
+      <guid>https://tkgshn.github.io/docs/dp/</guid>
+      <description>write later about &amp;ldquo;Meta-diversity&amp;rdquo;</description>
     </item>
     
     <item>
       <title>FAQs</title>
-      <link>https://tkgshn.github.io/docs/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://tkgshn.github.io/docs/FAQs/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/faq/</guid>
-      <description>Who is eligible to participate in Community Notes? Is there an approval process?   Anyone can sign up to become contributors. Accounts must meet a few criteria to be eligible. Learn more here.   Are contributions anonymous? Or will my name be attached to my notes?   We want everyone to feel comfortable contributing to Community Notes. Because of that, all contributors get a new, auto-generated display name (or alias) when they join Community Notes.</description>
+      <guid>https://tkgshn.github.io/docs/FAQs/</guid>
+      <description>Frequently Asked Questions
+Who can join DeCartography as a crowdworker?   Anyone can become a crowdworker. Workers must meet several requirements. Please click here for more details. (You cannot get paid in the beta version.)   Are my ratings anonymous? Or will my vote be named?   We want everyone to feel comfortable participating in DeCartography. Therefore, all crowd workers who participate in DeCartography will be given a new, automatically generated identifier.</description>
     </item>
     
     <item>
-      <title>Getting started</title>
-      <link>https://tkgshn.github.io/docs/getting-started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Getting Started</title>
+      <link>https://tkgshn.github.io/docs/gettingstarted/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/getting-started/</guid>
-      <description>Sign up Anyone who meets the eligibility criteria can sign up to become a Community Notes contributor. As there are important nuances in each market, we’ll expand the contributor base country-by-country.  Sign up        Select an alias so you can keep your identity private As a Community Notes contributor, you can now rate the helpfulness of all notes. But first, choose an alias to contribute under (it’s like a pen name!</description>
+      <guid>https://tkgshn.github.io/docs/gettingstarted/</guid>
+      <description>
+ Sign up from [here https://decartography.web.app/]   Anyone can sign up to contribute as a crowd worker to DeCartography, which is currently in beta.   Authenticate with your Google account
+  Go to the screen like this
+  Answer the question
+  </description>
     </item>
     
     <item>
-      <title>Guardrails and Circuit Breakers</title>
-      <link>https://tkgshn.github.io/docs/guardrails/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Graph Mapping</title>
+      <link>https://tkgshn.github.io/docs/mapping/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/guardrails/</guid>
-      <description>Community Notes aims to create a better-informed world, by empowering people on Twitter to collaboratively add helpful context to Tweets that might be misleading or missing important context.
-It’s important that the context that is elevated to viewers from Community Notes be helpful, informative, and accurate.
-The note ranking algorithm is designed to help meet these quality standards, along with a number of additional safeguards built over the course of the program’s development.</description>
+      <guid>https://tkgshn.github.io/docs/mapping/</guid>
+      <description>write later about Algorithm about how to generate social graph</description>
     </item>
     
     <item>
-      <title>Locking and unlocking the ability to write notes</title>
-      <link>https://tkgshn.github.io/docs/writing-ability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Graph Mapping Code</title>
+      <link>https://tkgshn.github.io/docs/mappingcode/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/writing-ability/</guid>
-      <description>To keep the quality of Community Notes high, contributors earn (and can lose) the ability to write notes.
-Everyone who joins Community Notes can rate notes. They can unlock the ability to write notes by helping to identify helpful and unhelpful notes. If notes they write are found helpful, they’ll continue to have greater impact. If notes they write are consistently found not helpful, their ability to write notes will be temporarily locked, and they’ll have to earn it back.</description>
+      <guid>https://tkgshn.github.io/docs/mappingcode/</guid>
+      <description>write later</description>
     </item>
     
     <item>
-      <title>Note ranking</title>
-      <link>https://tkgshn.github.io/docs/ranking-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Rating Impact</title>
+      <link>https://tkgshn.github.io/docs/ratingimpact/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
       
-      <guid>https://tkgshn.github.io/docs/ranking-notes/</guid>
-      <description>Community Notes are submitted and rated by contributors. Ratings are used to determine note statuses (“Helpful”, “Not Helpful”, or “Needs More Ratings”). Note statuses also determine which notes are displayed on each of the Community Notes Site’s timelines, and which notes are displayed on Tweets.
-At this time, only notes that indicate a Tweet is “potentially misleading” are eligible to be displayed on Tweets. We observed that notes marking a Tweet as &amp;ldquo;not misleading&amp;rdquo; were often rated as “Unhelpful - Tweet doesn’t need a note”.</description>
-    </item>
-    
-    <item>
-      <title>Note ranking code</title>
-      <link>https://tkgshn.github.io/docs/note-ranking-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/note-ranking-code/</guid>
-      <description>Here you can find links to code that reproduces the note scoring/ranking code that Twitter runs in production.
-If you download the notes, ratings, and note status history files made available on the Data Download page and put them in the same directory as the following files, you can then run python main.py to produce a scoredNotes.tsv file that contains note scores, statuses, and explanation tags that will match what’s running in production (as of the time the data was from).</description>
-    </item>
-    
-    <item>
-      <title>Note-writing tips</title>
-      <link>https://tkgshn.github.io/docs/examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/examples/</guid>
-      <description>Great notes provide helpful context to Tweets and leave people better informed. But what makes a note helpful?
-Helpful attributes  Cites high-quality sources Easy to understand Directly addresses the Tweet’s claim Provides important context Neutral or unbiased language    Unhelpful attributes Helpful notes steer clear of all of these unhelpful attributes:
- Sources not included or unreliable Sources do not support note Incorrect information Opinion or speculation Typos or unclear language Misses key points or irrelevant Argumentative or biased language Note not needed on this Tweet Harassment or abuse     The following are examples of notes that illustrate what makes a note helpful (versus unhelpful):</description>
-    </item>
-    
-    <item>
-      <title>Notes shown on Twitter</title>
-      <link>https://tkgshn.github.io/docs/notes-on-twitter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/notes-on-twitter/</guid>
-      <description>Community Notes&#39; goal is to show helpful context to people when they come across potentially misleading information on Twitter. When a note is rated Helpful by contributors, it starts being shown directly on the Tweet. Here&amp;rsquo;s how they show up:
-  If the Tweet has multiple notes with a status of Helpful, the card randomly cycles between the notes at periodic intervals in order to gather additional rating inputs on each.</description>
-    </item>
-    
-    <item>
-      <title>Notifications</title>
-      <link>https://tkgshn.github.io/docs/notifications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/notifications/</guid>
-      <description>Alerts when a note needs your help Notes have the most impact when they get rated quickly and start showing on Tweets early. To ensure contributors don&amp;rsquo;t miss the opportunity to rate notes on Tweets getting a lot of attention, Community Notes sends alerts requesting help from time to time.
-If you are a contributor, you&amp;rsquo;ll see these alerts in your notifications tab. They look like this:
-  Configuring your alerts The default setting for all contributors is &amp;ldquo;Often&amp;rdquo;, which means you&amp;rsquo;ll start by getting a few alerts per week.</description>
-    </item>
-    
-    <item>
-      <title>Phone number troubleshooting</title>
-      <link>https://tkgshn.github.io/docs/phone-faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/phone-faq/</guid>
-      <description>All Community Notes accounts must have phone numbers that are verified, use a trusted carrier, and are unique among all contributors. This helps protect Community Notes from spam and uphold the quality of contributions.
-If you&amp;rsquo;re having trouble with your phone number in Community Notes, here&amp;rsquo;s what you can do:
-If your phone number is not verified You can verify your phone number by following Twitter&amp;rsquo;s Help Center instructions.
-If your phone number is associated with more than one Twitter account If your phone number is associated with multiple Twitter accounts, only the account that most recently verified that number will be able to access Community Notes.</description>
-    </item>
-    
-    <item>
-      <title>Rating and Writing Impact</title>
-      <link>https://tkgshn.github.io/docs/writing-and-rating-impact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/writing-and-rating-impact/</guid>
-      <description>The two most important activities in Community Notes are writing notes and rating notes. Contributors can see the history of their past Writing Impact and Rating Impact on their profiles.
-In the future, newly admitted contributors will need to earn enough Rating Impact to unlock the ability to write notes.
-  Writing Impact Writing Impact reflects how often a contributor&amp;rsquo;s notes have earned a status of Helpful when rated by others.</description>
-    </item>
-    
-    <item>
-      <title>Rating notes</title>
-      <link>https://tkgshn.github.io/docs/rating-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/rating-notes/</guid>
-      <description>There are two ways to find Tweets with Community Notes in order to rate their quality:
-Rating notes on the Community Notes site Go to the Community Notes Home page and choose any Tweet to see notes that contributors have added to it. There are three main timelines on this page:
-  Needs your help: Contains Tweets with notes where you can have the most impact when rating. This tab is only visible to Community Notes contributors.</description>
-    </item>
-    
-    <item>
-      <title>Redirecting to Tweet announcement...</title>
-      <link>https://tkgshn.github.io/docs/name-announcement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/name-announcement/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Submit Feedback</title>
-      <link>https://tkgshn.github.io/docs/feedback/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/feedback/</guid>
-      <description>Community Notes is early in its development, and our goal is to build it in the open with the public. We invite you on this journey to learn and shape Community Notes alongside us. Feel free to reach out with:
- Questions about the program Problems or issues you experience while contributing Risks and concerns we might not have considered Ideas for product updates or features for our roadmap Analyses done with our public data or feedback about the data.</description>
-    </item>
-    
-    <item>
-      <title>Timeline Tabs</title>
-      <link>https://tkgshn.github.io/docs/timeline-tabs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/timeline-tabs/</guid>
-      <description>Community Notes participants are able to view three different tabs on the Community Notes Home page. Each tab contains different sets of Tweets in different orders. In order to appear in any of these tabs, a Tweet must have received at least 100 total likes plus Retweets.
-  New Contains Tweets sorted by reverse chronological order of when its latest note was written (Tweets are bumped to the top of the list when a new note is written on them).</description>
-    </item>
-    
-    <item>
-      <title>Values</title>
-      <link>https://tkgshn.github.io/docs/values/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/values/</guid>
-      <description>Community Notes aims to provide context on Tweets in a way that a broad set of people with diverse perspectives find helpful. We ask that all Community Notes contributors agree to uphold three core values:
-    Contribute to build understanding  Community Notes seeks to provide helpful context so people can stay better informed about Tweets they see. It’s not a place for quick dunks, personal opinions, or insults.</description>
-    </item>
-    
-    <item>
-      <title>Video transcript</title>
-      <link>https://tkgshn.github.io/docs/video-transcript-pile-ons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/video-transcript-pile-ons/</guid>
-      <description>How does Birdwatch avoid one-sided bias? Pile-ons? Brigading? Manipulation? Abuse?
-Community Notes are rated by contributors of multiple perspectives, and only notes that are widely found helpful are shown on Tweets. So one group alone can&amp;rsquo;t determine what notes get shown, and pile-ons aren&amp;rsquo;t effective.
-This helps ensure that notes are helpful to a wide range of people.
-To make it clear how all of this works, Birdwatch&amp;rsquo;s algorithm is open source, and all the data is public.</description>
-    </item>
-    
-    <item>
-      <title>Video transcript</title>
-      <link>https://tkgshn.github.io/docs/video-transcript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/video-transcript/</guid>
-      <description>Introducing Birdwatch.
-Sometimes, Tweets can be misleading or miss important context.
-[Cleve @All_the_sportz 1hr ago tweeted, “Police are reporting that 3 ostriches are loose in Central Station 😲”]
-And you aren&amp;rsquo;t sure whether to trust the Tweet…
-Birdwatch empowers people to share helpful context. Here&amp;rsquo;s how it works:
-Contributors propose notes that add context to Tweets. Notes are then rated by other contributors.
-Decisions aren&amp;rsquo;t made by majority rules or popularity…So one group alone can&amp;rsquo;t determine what notes get shown.</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Community Notes!</title>
-      <link>https://tkgshn.github.io/docs/welcome/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/welcome/</guid>
-      <description>You&amp;rsquo;re now a Community Notes contributor 🎉
-   Select an alias so you can keep your identity private As a Community Notes contributor, you can now rate the helpfulness of all notes. But first, choose an alias to contribute under (it’s like a pen name!) Select your alias       Begin rating notes Your ratings help determine which notes are made visible on Twitter. To start rating notes, navigate to Community Notes from your Twitter app navigation bar.</description>
-    </item>
-    
-    <item>
-      <title>Writing notes</title>
-      <link>https://tkgshn.github.io/docs/writing-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tkgshn.github.io/docs/writing-notes/</guid>
-      <description>Anyone can read and rate Community Notes, but only contributors who&amp;rsquo;ve unlocked the ability to write can add new notes to Tweets. Here&amp;rsquo;s how to add a note:
-   Click or tap the ••• menu on the Tweet&#39;s top right and then **Write a Community Note**.       Before starting, you’ll see a reminder about Community Notes values, — a prompt to promote helpful contributions.</description>
+      <guid>https://tkgshn.github.io/docs/ratingimpact/</guid>
+      <description>write about using Peer Prediction Method</description>
     </item>
     
   </channel>

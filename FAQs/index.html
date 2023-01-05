@@ -2,24 +2,18 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.78.0" />
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity">
+<meta name="description" content="FAQs">
 
-<title>DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity | Community Notes Guide</title>
+<title>FAQs | Community Notes Guide</title>
 
 <link rel="icon" href="/docs/favicon/favicon-32x32.png"
 type="image/x-icon"> <link rel="stylesheet" href="/docs/main.min.css"
 media="screen"> <link rel="stylesheet" href="/docs/feather-core.css"
 media="screen"> <link rel="stylesheet" href="/docs/custom.css"
 media="screen"> <link rel="stylesheet" href="/docs/syntax.css"
-media="screen"> <link
-  rel="alternate"
-  type="application/rss+xml"
-  href="https://tkgshn.github.io/docs/index.xml"
-  title="Community Notes Guide"
-/> <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
+media="screen"> <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
 
 <script
@@ -132,7 +126,7 @@ media="screen"> <link
             <span class="flex">
                 
                 <a href="/docs/"
-                    class="gdoc-nav__entry is-active">
+                    class="gdoc-nav__entry ">
                     Introduction
                 </a>
             </span>
@@ -182,7 +176,7 @@ media="screen"> <link
             <span class="flex">
                 
                 <a href="/docs/FAQs/"
-                    class="gdoc-nav__entry ">
+                    class="gdoc-nav__entry is-active">
                     FAQs
                 </a>
             </span>
@@ -500,7 +494,7 @@ media="screen"> <link
 </div>
 
     <article class="gdoc-markdown">
-        
+        <h1 class="article_title">FAQs</h1> 
         
 
 
@@ -508,39 +502,65 @@ media="screen"> <link
     
 
 
-<p><a href="https://gyazo.com/a0ff5eec87605670773311536a3ea39b"><img src="https://i.gyazo.com/a0ff5eec87605670773311536a3ea39b.png" alt="Image from Gyazo"></a></p>
-<p>DeCartography is a computational oracle that provides &ldquo;Plurality Social Diversity&rdquo; between wallet addresses based on on-chain activity on Ethereum.</p>
-<p>Developers using this oracle can retrieve the Plurality Social Diversity of a given wallet address and other wallet addresses or groups (which is a list of wallet addresses) in GraphQL.</p>
-<p>The data used to generate the social graph is determined by the crowdworker. Crowdworkers are rewarded by solving [Common Sense Task] displayed on the platform.</p>
-<p>The goal is to collect subjective ratings from each crowdworker and use the &ldquo;wisdom of crowds&rdquo; to provide a social graph that is as close to objective as possible.</p>
-<br>
-<p><strong>Explain for OG</strong></p>
-<ul>
-<li>This project is like TruthCoin (formerly: Hivemind), which attempted to create an oracle with a Bitcoin sidechain.</li>
-<li>The &ldquo;crowdworkers&rdquo; here will serve as validators for the decentralized oracle. The same task is assigned to each validator, and the answers (not &ldquo;solutions&rdquo; since there is no uniform answer) are evaluated using the peer prediction method.</li>
-<li>Through this series of processes, the goal is to generate a single social graph while benefiting from the &ldquo;wisdom of crowds&rdquo; based on predictive markets.</li>
-</ul>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="crowdworkers-evaluate-addresses">Crowdworkers evaluate addresses<a data-clipboard-text="https://tkgshn.github.io/docs/#crowdworkers-evaluate-addresses" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Crowdworkers evaluate addresses" href="#crowdworkers-evaluate-addresses"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>Crowdworkers are people who answer [Common Sense Task] posed with financial incentives from DeCartography. The more participants, the better this project will be.</p>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="creating-a-social-graph-from-answers-about-addresses">Creating a social graph from &ldquo;answers about addresses&rdquo;.<a data-clipboard-text="https://tkgshn.github.io/docs/#creating-a-social-graph-from-answers-about-addresses" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Creating a social graph from &ldquo;answers about addresses&rdquo;." href="#creating-a-social-graph-from-answers-about-addresses"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>DeCartohgraphy&rsquo;s [Common Sense Task] goes something like this. &ldquo;Do the NFTs held by addresses A and B shown here appear to belong to the same community?&rdquo;</p>
-<p>Repeat this question to many people and collect the answers to all the addresses given. (For more information, see &ldquo;[For teams that want to use DeCartography&rsquo;s social graph data]&quot;)</p>
-<ul>
-<li>When n people interpret an opinion, a social graph can be generated by working with n dimensional values tied to the opinion (clustering with dimensionality reduction)</li>
-</ul>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="responses-supported-by-people-from-various-clusters-are-given-higher-priority">Responses supported by people from various clusters are given higher priority<a data-clipboard-text="https://tkgshn.github.io/docs/#responses-supported-by-people-from-various-clusters-are-given-higher-priority" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Responses supported by people from various clusters are given higher priority" href="#responses-supported-by-people-from-various-clusters-are-given-higher-priority"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>The system is not majority-driven; responses supported by a wide range of people are prioritized in the generation of social graph data; see [Metadiversity] for more information on how DeCartography handles responses from diverse communities.</p>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process">DeCartography does not use arbitrary data in the social graph generation process.<a data-clipboard-text="https://tkgshn.github.io/docs/#decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DeCartography does not use arbitrary data in the social graph generation process." href="#decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>In the future, we aspire to a &ldquo;[[Hyperstructure]]&rdquo; that can be run in perpetuity without the need for a middleman to maintain and operate it.</p>
-<br>
-<hr>
-<br>
-<p><strong>Become a DeCartography contributor:</strong>
-<a href="https://decartography.web.app/">https://decartography.web.app/</a></p>
+<p>Frequently Asked Questions</p>
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="57ec1bce-0">
+    <span>Who can join DeCartography as a crowdworker?</span>
+    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.2069 1.04299C16.8169 0.652988 16.1839 0.652988 15.7929 1.04299L8.99988 7.83599L2.20688 1.04299C1.81688 0.652988 1.18388 0.652988 0.792875 1.04299C0.401875 1.43299 0.402875 2.06599 0.792875 2.45699L8.29288 9.95699C8.48788 10.152 8.74288 10.25 8.99988 10.25C9.25688 10.25 9.51187 10.152 9.70687 9.95699L17.2069 2.45699C17.5969 2.06699 17.5969 1.43399 17.2069 1.04299Z" fill="#AAB8C2"/>
+      </svg>
+  </label>
+  <input id="57ec1bce-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    Anyone can become a crowdworker. Workers must meet several requirements. Please click here for more details. (You cannot get paid in the beta version.)
+  </div>
+</div>
+
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="1f21eccc-1">
+    <span>Are my ratings anonymous? Or will my vote be named?</span>
+    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.2069 1.04299C16.8169 0.652988 16.1839 0.652988 15.7929 1.04299L8.99988 7.83599L2.20688 1.04299C1.81688 0.652988 1.18388 0.652988 0.792875 1.04299C0.401875 1.43299 0.402875 2.06599 0.792875 2.45699L8.29288 9.95699C8.48788 10.152 8.74288 10.25 8.99988 10.25C9.25688 10.25 9.51187 10.152 9.70687 9.95699L17.2069 2.45699C17.5969 2.06699 17.5969 1.43399 17.2069 1.04299Z" fill="#AAB8C2"/>
+      </svg>
+  </label>
+  <input id="1f21eccc-1" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    We want everyone to feel comfortable participating in DeCartography. Therefore, all crowd workers who participate in DeCartography will be given a new, automatically generated identifier. This identifier will not be publicly visible with your wallet address, so everyone can rate you privately.
+  </div>
+</div>
+
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="a92a106e-2">
+    <span>What are the tasks that will be evaluated in DeCartography?</span>
+    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.2069 1.04299C16.8169 0.652988 16.1839 0.652988 15.7929 1.04299L8.99988 7.83599L2.20688 1.04299C1.81688 0.652988 1.18388 0.652988 0.792875 1.04299C0.401875 1.43299 0.402875 2.06599 0.792875 2.45699L8.29288 9.95699C8.48788 10.152 8.74288 10.25 8.99988 10.25C9.25688 10.25 9.51187 10.152 9.70687 9.95699L17.2069 2.45699C17.5969 2.06699 17.5969 1.43399 17.2069 1.04299Z" fill="#AAB8C2"/>
+      </svg>
+  </label>
+  <input id="a92a106e-2" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    Currently in Beta, DeCartography covers a portion of the task of generating a social graph from Gitcoin&rsquo;s GR data.
+In the future, we intend to increase the number of tasks and types of tasks by allowing users to specify the set of addresses they wish to analyze, similar to the crypto version of Mturk.
+  </div>
+</div>
+
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="f8426b76-3">
+    <span>Can non-Gitcoin researchers and others download and analyze the data?</span>
+    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.2069 1.04299C16.8169 0.652988 16.1839 0.652988 15.7929 1.04299L8.99988 7.83599L2.20688 1.04299C1.81688 0.652988 1.18388 0.652988 0.792875 1.04299C0.401875 1.43299 0.402875 2.06599 0.792875 2.45699L8.29288 9.95699C8.48788 10.152 8.74288 10.25 8.99988 10.25C9.25688 10.25 9.51187 10.152 9.70687 9.95699L17.2069 2.45699C17.5969 2.06699 17.5969 1.43399 17.2069 1.04299Z" fill="#AAB8C2"/>
+      </svg>
+  </label>
+  <input id="f8426b76-3" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    No, they will not. No. Currently, we are working on this as a PoC with Gitcoin, so it is closed to the public.
+Please contact @DeCartography if you are interested in the demonstration.
+  </div>
+</div>
+
 
 
     </article>
@@ -583,6 +603,44 @@ media="screen"> <link
             
 
             
+
+            
+        
+
+        
+        
+    
+        
+        
+
+        
+        
+            
+            
+            
+
+            
+
+            
+
+            
+        
+
+        
+        
+    
+        
+        
+
+        
+        
+            
+            
+            
+
+            
+
+            
                 
                 
             
@@ -593,6 +651,22 @@ media="screen"> <link
         
         
     
+
+        
+    
+        
+        
+
+        
+        
+
+        
+        
+            
+    
+    
+
+    
         
         
 
@@ -605,60 +679,6 @@ media="screen"> <link
             
                 
                 
-            
-
-            
-
-            
-        
-
-        
-        
-    
-        
-        
-
-        
-        
-            
-            
-            
-
-            
-
-            
-
-            
-        
-
-        
-        
-    
-
-        
-    
-        
-        
-
-        
-        
-
-        
-        
-            
-    
-    
-
-    
-        
-        
-
-        
-        
-            
-            
-            
-
             
 
             
@@ -793,10 +813,12 @@ media="screen"> <link
     
         <span class="gdoc-page__nav">
             
+                <a class="gdoc-page__nav--prev flex align-center" href="/docs/Challenges/" title="Challenges"> Challenges</a>
+            
         </span>
         <span class="gdoc-page__nav">
             
-                <a class="gdoc-page__nav--next flex align-center" href="/docs/Challenges/" title="Challenges">Challenges </a>
+                <a class="gdoc-page__nav--next flex align-center" href="/docs/gettingstarted/" title="Getting Started">Getting Started </a>
             
         </span>
     

@@ -2,24 +2,18 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.78.0" />
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity">
+<meta name="description" content="Challenges">
 
-<title>DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity | Community Notes Guide</title>
+<title>Challenges | Community Notes Guide</title>
 
 <link rel="icon" href="/docs/favicon/favicon-32x32.png"
 type="image/x-icon"> <link rel="stylesheet" href="/docs/main.min.css"
 media="screen"> <link rel="stylesheet" href="/docs/feather-core.css"
 media="screen"> <link rel="stylesheet" href="/docs/custom.css"
 media="screen"> <link rel="stylesheet" href="/docs/syntax.css"
-media="screen"> <link
-  rel="alternate"
-  type="application/rss+xml"
-  href="https://tkgshn.github.io/docs/index.xml"
-  title="Community Notes Guide"
-/> <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
+media="screen"> <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
 
 <script
@@ -132,7 +126,7 @@ media="screen"> <link
             <span class="flex">
                 
                 <a href="/docs/"
-                    class="gdoc-nav__entry is-active">
+                    class="gdoc-nav__entry ">
                     Introduction
                 </a>
             </span>
@@ -157,7 +151,7 @@ media="screen"> <link
             <span class="flex">
                 
                 <a href="/docs/Challenges/"
-                    class="gdoc-nav__entry ">
+                    class="gdoc-nav__entry is-active">
                     Challenges
                 </a>
             </span>
@@ -500,7 +494,7 @@ media="screen"> <link
 </div>
 
     <article class="gdoc-markdown">
-        
+        <h1 class="article_title">Challenges</h1> 
         
 
 
@@ -508,39 +502,34 @@ media="screen"> <link
     
 
 
-<p><a href="https://gyazo.com/a0ff5eec87605670773311536a3ea39b"><img src="https://i.gyazo.com/a0ff5eec87605670773311536a3ea39b.png" alt="Image from Gyazo"></a></p>
-<p>DeCartography is a computational oracle that provides &ldquo;Plurality Social Diversity&rdquo; between wallet addresses based on on-chain activity on Ethereum.</p>
-<p>Developers using this oracle can retrieve the Plurality Social Diversity of a given wallet address and other wallet addresses or groups (which is a list of wallet addresses) in GraphQL.</p>
-<p>The data used to generate the social graph is determined by the crowdworker. Crowdworkers are rewarded by solving [Common Sense Task] displayed on the platform.</p>
-<p>The goal is to collect subjective ratings from each crowdworker and use the &ldquo;wisdom of crowds&rdquo; to provide a social graph that is as close to objective as possible.</p>
-<br>
-<p><strong>Explain for OG</strong></p>
+<p>We know that building a distributed oracle like DeCartography has many challenges, including withstanding various hacks, not being dominated by a simple majority, and having a skewed community of contributors (crowd workers).</p>
+<p>We have been publicly building DeCartography since Jun 24-26, 2022 and are designing it while seeking input from the broader community.</p>
+<p>Here are a handful of particular challenges we are aware of as well as steps we are taking to address them:</p>
+<div class="gdoc-page__anchorwrap"><h2 id="prevention-of-tampering">Prevention of tampering<a data-clipboard-text="https://tkgshn.github.io/docs/Challenges/#prevention-of-tampering" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Prevention of tampering" href="#prevention-of-tampering"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Collaborative hacks (collusion) are a significant risk to open rating systems, and in order for DeCartography&rsquo;s social graph to be effective, such attempts must be countered.</p>
+<p>Currently, the program takes multiple steps to reduce the likelihood of such manipulation.</p>
 <ul>
-<li>This project is like TruthCoin (formerly: Hivemind), which attempted to create an oracle with a Bitcoin sidechain.</li>
-<li>The &ldquo;crowdworkers&rdquo; here will serve as validators for the decentralized oracle. The same task is assigned to each validator, and the answers (not &ldquo;solutions&rdquo; since there is no uniform answer) are evaluated using the peer prediction method.</li>
-<li>Through this series of processes, the goal is to generate a single social graph while benefiting from the &ldquo;wisdom of crowds&rdquo; based on predictive markets.</li>
+<li>
+<p>All cloud workers will be required to sign in with Gitcoin Passport. (Beta version uses Google sign-in) This is a consolidation of multiple 1 person, 1 ID protocols, which allows the business to ensure 1 person, 1 ID.</p>
+</li>
+<li>
+<p>These standards are in place to prevent the creation of large numbers of fake or disguised crowdworker accounts that could be used for fraudulent evaluations.</p>
+</li>
+<li>
+<p>Second, DeCartography is not a majority-supported answer mechanism like many engagement-based ranking systems. Instead, it will use the [peer prediction method] (not yet implemented in the beta version)</p>
+</li>
+<li>
+<p>For a person&rsquo;s answer to have a significant impact, people in different clusters must also agree.</p>
+</li>
+<li>
+<p>Academic studies have shown that such bridging-based ranking can help identify healthier, higher quality content and reduce the risk of elevating biased content.</p>
+</li>
+<li>
+<p>Newer accounts with a track record of quality contributions to responses will have a higher Commonsense Score, and newer accounts that do not yet have a track record of responses will have a lower Commonsense Score; the compensation DeCartography pays for end-user work is determined according to this &ldquo;commonsense&rdquo;; the higher the Commonsense Score, the more likely the account will be to receive a higher score.</p>
+</li>
 </ul>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="crowdworkers-evaluate-addresses">Crowdworkers evaluate addresses<a data-clipboard-text="https://tkgshn.github.io/docs/#crowdworkers-evaluate-addresses" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Crowdworkers evaluate addresses" href="#crowdworkers-evaluate-addresses"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>Crowdworkers are people who answer [Common Sense Task] posed with financial incentives from DeCartography. The more participants, the better this project will be.</p>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="creating-a-social-graph-from-answers-about-addresses">Creating a social graph from &ldquo;answers about addresses&rdquo;.<a data-clipboard-text="https://tkgshn.github.io/docs/#creating-a-social-graph-from-answers-about-addresses" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Creating a social graph from &ldquo;answers about addresses&rdquo;." href="#creating-a-social-graph-from-answers-about-addresses"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>DeCartohgraphy&rsquo;s [Common Sense Task] goes something like this. &ldquo;Do the NFTs held by addresses A and B shown here appear to belong to the same community?&rdquo;</p>
-<p>Repeat this question to many people and collect the answers to all the addresses given. (For more information, see &ldquo;[For teams that want to use DeCartography&rsquo;s social graph data]&quot;)</p>
-<ul>
-<li>When n people interpret an opinion, a social graph can be generated by working with n dimensional values tied to the opinion (clustering with dimensionality reduction)</li>
-</ul>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="responses-supported-by-people-from-various-clusters-are-given-higher-priority">Responses supported by people from various clusters are given higher priority<a data-clipboard-text="https://tkgshn.github.io/docs/#responses-supported-by-people-from-various-clusters-are-given-higher-priority" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Responses supported by people from various clusters are given higher priority" href="#responses-supported-by-people-from-various-clusters-are-given-higher-priority"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>The system is not majority-driven; responses supported by a wide range of people are prioritized in the generation of social graph data; see [Metadiversity] for more information on how DeCartography handles responses from diverse communities.</p>
-<br>
-<div class="gdoc-page__anchorwrap"><h2 id="decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process">DeCartography does not use arbitrary data in the social graph generation process.<a data-clipboard-text="https://tkgshn.github.io/docs/#decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DeCartography does not use arbitrary data in the social graph generation process." href="#decartography-does-not-use-arbitrary-data-in-the-social-graph-generation-process"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>In the future, we aspire to a &ldquo;[[Hyperstructure]]&rdquo; that can be run in perpetuity without the need for a middleman to maintain and operate it.</p>
-<br>
-<hr>
-<br>
-<p><strong>Become a DeCartography contributor:</strong>
-<a href="https://decartography.web.app/">https://decartography.web.app/</a></p>
+<div class="gdoc-page__anchorwrap"><h2 id="feedback-ideas">Feedback? Ideas?<a data-clipboard-text="https://tkgshn.github.io/docs/Challenges/#feedback-ideas" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Feedback? Ideas?" href="#feedback-ideas"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>We welcome your feedback on these and other risks and challenges, as well as ideas for addressing them, please contact us via DM @DeCartography.</p>
 
 
     </article>
@@ -583,6 +572,25 @@ media="screen"> <link
             
 
             
+
+            
+        
+
+        
+        
+    
+        
+        
+
+        
+        
+            
+            
+            
+
+            
+
+            
                 
                 
             
@@ -605,25 +613,6 @@ media="screen"> <link
             
                 
                 
-            
-
-            
-
-            
-        
-
-        
-        
-    
-        
-        
-
-        
-        
-            
-            
-            
-
             
 
             
@@ -793,10 +782,12 @@ media="screen"> <link
     
         <span class="gdoc-page__nav">
             
+                <a class="gdoc-page__nav--prev flex align-center" href="/docs/" title="Introduction"> Introduction</a>
+            
         </span>
         <span class="gdoc-page__nav">
             
-                <a class="gdoc-page__nav--next flex align-center" href="/docs/Challenges/" title="Challenges">Challenges </a>
+                <a class="gdoc-page__nav--next flex align-center" href="/docs/FAQs/" title="FAQs">FAQs </a>
             
         </span>
     
