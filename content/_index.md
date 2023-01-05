@@ -5,6 +5,7 @@ draft: false
 ---
 [![Image from Gyazo](https://i.gyazo.com/a0ff5eec87605670773311536a3ea39b.png)](https://gyazo.com/a0ff5eec87605670773311536a3ea39b)
 
+## DeCartography: a collaborative way to provide a social graph based on human subjective evaluation of address activity
 
 DeCartography is a computational oracle that provides "Plurality Social Diversity" between wallet addresses based on on-chain activity on Ethereum.
 
